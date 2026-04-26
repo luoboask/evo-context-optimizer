@@ -50,9 +50,9 @@ function formatSize(chars: number): string {
 }
 
 const plugin = {
-  id: 'context-optimizer',
-  name: 'Context Optimizer',
-  description: 'Token analysis, context optimization, snapshot management, and rollback support',
+  id: 'evo-context-optimizer',
+  name: 'Evo Context Optimizer',
+  description: 'Token analysis, context optimization, snapshot management, and rollback support (Evo-Cortex ecosystem)',
   configSchema: {
     type: 'object',
     additionalProperties: true,

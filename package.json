@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/context-optimizer",
+  "name": "@evo/context-optimizer",
   "version": "1.0.0",
   "description": "OpenClaw plugin for context token analysis, optimization, snapshot management, and rollback support",
   "main": "dist/index.js",
