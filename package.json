@@ -8,13 +8,7 @@
     "build": "tsc",
     "dev": "tsc --watch"
   },
-  "keywords": [
-    "openclaw",
-    "plugin",
-    "context",
-    "token",
-    "optimizer"
-  ],
+  "keywords": ["openclaw", "plugin", "context", "token", "optimizer"],
   "license": "MIT",
   "dependencies": {
     "openclaw": "*"
@@ -23,5 +17,8 @@
     "@sinclair/typebox": "^0.34.49",
     "@types/node": "^20.19.39",
     "typescript": "^5.9.3"
+  },
+  "openclaw": {
+    "extensions": ["./dist/index.js"]
   }
 }
